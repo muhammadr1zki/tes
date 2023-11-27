@@ -74,3 +74,16 @@ bg %1
 # kirim sinyal TERM ke job tersebut
 kill -TERM %1
 ```
+
+```bash
+# Format date
+date +%Y%m%d
+# tampilkan daftar job
+jobs
+# kirim sinyal STOP ke job tersebut
+kill -STOP %1
+# lanjutkan job tersebut di background
+bg %1
+# kirim sinyal TERM ke job tersebut
+kill -TERM %1
+```
